@@ -364,3 +364,25 @@ h2{
     gap: 14px;
   }
 }
+/* WHY TRAIN WITH US – CLEAN BULLET STYLE */
+.checklist {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 12px;
+}
+
+.checklist li {
+  position: relative;
+  padding-left: 22px;
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+.checklist li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #9b1c1c;
+  font-weight: bold;
+}
+
