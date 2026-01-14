@@ -1,19 +1,18 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Next Goal Player Development</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
-
   <!-- NAV -->
   <header class="nav">
     <div class="container nav-inner">
       <div class="brand">
-        <img src="Logo.png" alt="Next Goal Logo" class="logo" />
+        <img src="./Logo.png" alt="Next Goal Logo" class="logo" />
         <div class="brand-text">
           <div class="brand-name">Next Goal</div>
           <div class="brand-sub">Player Development</div>
@@ -30,47 +29,48 @@
   </header>
 
   <!-- HERO -->
-  <section class="hero">
-    <div class="container hero-grid">
-      <div class="hero-left">
-        <h1>Helping Players Reach Their Next Goal</h1>
-        <p class="hero-lead">
-          Private 1-on-1 and small-group soccer training for youth players.
-        </p>
-        <p class="hero-sub">
-          Structured, affordable player development focused on confidence, technical ability,
-          and real game understanding.
-        </p>
+  <section class="hero" id="home">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-left">
+          <h1>Helping Players Reach Their<br/>Next Goal</h1>
 
-        <div class="cta-row">
-          <a class="btn primary" href="#programs">View Programs</a>
-          <a class="btn ghost" href="#contact">Contact Us</a>
+          <p class="hero-lead">Private 1-on-1 and small-group soccer training for youth players.</p>
+          <p class="hero-sub">
+            Structured, affordable player development focused on confidence, technical ability,
+            and real game understanding.
+          </p>
+
+          <div class="cta-row">
+            <a class="btn primary" href="#programs">View Programs</a>
+            <a class="btn ghost" href="#contact">Contact Us</a>
+          </div>
+
+          <div class="pill-row">
+            <span class="pill">Durham Region</span>
+            <span class="pill">Small Groups (3–6)</span>
+            <span class="pill">Youth Development</span>
+          </div>
         </div>
 
-        <div class="pill-row">
-          <span class="pill">Durham Region</span>
-          <span class="pill">Small Groups (3–6)</span>
-          <span class="pill">Youth Development</span>
-        </div>
-      </div>
-
-      <div class="hero-right">
-        <div class="card why-card">
-          <div class="card-head">Why Train With Us?</div>
-          <ul class="checklist">
-            <li>Experienced youth coaches</li>
-            <li>Clear Specialized development plans</li>
-            <li>Fun, focused training environment</li>
-          </ul>
+        <div class="hero-right">
+          <div class="card why-card">
+            <div class="card-head">Why Train With Us?</div>
+            <ul class="checklist">
+              <li>Experienced youth coaches</li>
+              <li>Clear specialized development plans</li>
+              <li>Fun, focused training environment</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
   <!-- PROGRAMS -->
-  <section class="strip" id="programs">
+  <section class="strip alt" id="programs">
     <div class="container">
-      <h2>Programs & Pricing</h2>
+      <h2>Programs &amp; Pricing</h2>
       <p class="subtext">Simple, structured programs designed to help players improve faster.</p>
 
       <div class="cards">
@@ -79,16 +79,16 @@
           <p>Private, personalized training focused on individual improvement.</p>
           <div class="price-line">
             <strong>4 sessions — $140</strong>
-            <span>8 sessions — $260</span>
+            <strong>8 sessions — $260</strong>
           </div>
         </div>
 
         <div class="card program-card">
           <h3>Small Group Training (Ages 8–14)</h3>
-          <p>High-rep sessions with <strong>3–6 players</strong> per group.</p>
+          <p>High-rep sessions with 3–6 players per group.</p>
           <div class="price-line">
             <strong>4 sessions — $100</strong>
-            <span>$25 per session</span>
+            <strong>$25 per session</strong>
           </div>
           <p class="note">Runs once per week. Groups start when enough players register.</p>
         </div>
@@ -98,7 +98,7 @@
           <p>Fun, confidence-building training focused on fundamentals.</p>
           <div class="price-line">
             <strong>4 sessions — $80</strong>
-            <span>$20 per session</span>
+            <strong>$20 per session</strong>
           </div>
           <p class="note">Groups start when enough players register.</p>
         </div>
@@ -107,55 +107,47 @@
   </section>
 
   <!-- COACHES -->
-<section class="strip alt" id="coaches">
-  <div class="container">
-    <h2>Meet Your Coaches</h2>
+  <section class="strip alt" id="coaches">
+    <div class="container">
+      <h2>Meet Your Coaches</h2>
 
-    <div class="coach-grid">
+      <div class="coach-grid">
+        <div class="card coach-card">
+          <img src="./Coach-James.jpg" alt="Coach James White" class="coach-img" />
+          <div class="coach-info">
+            <h3>James White</h3>
+            <p class="coach-title">College player &amp; youth coach</p>
+            <p>Specializes in technical development, game understanding, and helping players reach the next level.</p>
+          </div>
+        </div>
 
-      <div class="card coach-card">
-        <img src="./Coach-James.jpg" alt="Coach James White" class="coach-img" />
-        <div class="coach-info">
-          <h3>James White</h3>
-          <p class="coach-title">College player & Youth Coach</p>
-          <p>
-            Specializes in technical development, game understanding,
-            and helping players reach the next level.
-          </p>
+        <div class="card coach-card">
+          <img src="./Coach-Faiq.png" alt="Coach Faiq Ali" class="coach-img" />
+          <div class="coach-info">
+            <h3>Faiq Ali</h3>
+            <p class="coach-title">Youth coach &amp; player development specialist</p>
+            <p>Focused on building confidence, strong fundamentals, and long-term player growth in young players.</p>
+          </div>
         </div>
       </div>
-
-      <div class="card coach-card">
-        <img src="./coach-faiq.jpg" alt="Coach Faiq Ali" class="coach-img" />
-        <div class="coach-info">
-          <h3>Faiq Ali</h3>
-          <p class="coach-title">Youth Coach & Player Development</p>
-          <p>
-            Focused on building confidence, strong fundamentals,
-            and long-term player growth in young players.
-          </p>
-        </div>
-      </div>
-
     </div>
-  </div>
-</section>
+  </section>
 
-  <!-- GALLERY (3 images side-by-side) -->
-  <section class="strip" id="gallery">
+  <!-- GALLERY -->
+  <section class="strip alt" id="gallery">
     <div class="container">
       <h2>Training Gallery</h2>
       <p class="subtext">A look at our sessions in action.</p>
 
       <div class="gallery-grid">
-        <img src="image-2.png" alt="Training session 1" />
-        <img src="image-3.png" alt="Training session 2" />
-        <img src="image-4.png" alt="Training session 3" />
+        <img src="./image-2.png" alt="Training photo 2" />
+        <img src="./image-3.png" alt="Training photo 3" />
+        <img src="./image-4.png" alt="Training photo 4" />
       </div>
     </div>
   </section>
 
-  <!-- CONTACT -->
+  <!-- CONTACT (FIXED: WRAPPED IN CONTAINER SO IT CENTERS LIKE EVERYTHING ELSE) -->
   <section class="strip alt" id="contact">
     <div class="container">
       <h2>Contact</h2>
@@ -165,9 +157,11 @@
         <div class="card contact-card">
           <h3>Payment</h3>
           <p>We accept <strong>Interac e-Transfer</strong></p>
-          <p>Send payment to:</p>
+          <p class="contact-line">Send payment to:</p>
           <p class="contact-line"><strong>nextgoalfutbol@gmail.com</strong></p>
-          <p class="note">Please include the player’s name in the message. Registration is confirmed once payment is received.</p>
+          <p class="note">
+            Please include the player’s name in the message. Registration is confirmed once payment is received.
+          </p>
         </div>
 
         <div class="card contact-card">
@@ -188,7 +182,6 @@
       <div class="footer-links">
         <a href="#programs">Programs</a>
         <a href="#coaches">Coaches</a>
-        <a href="#gallery">Gallery</a>
         <a href="#contact">Contact</a>
       </div>
     </div>
@@ -197,6 +190,5 @@
   <script>
     document.getElementById("year").textContent = new Date().getFullYear();
   </script>
-
 </body>
 </html>
