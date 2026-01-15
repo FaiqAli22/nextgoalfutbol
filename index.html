@@ -1,182 +1,259 @@
-<!DOCTYPE html>
+<!-- index.html -->
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <!-- BASIC SEO -->
-  <title>Next Goal Player Development | Private Soccer Training in Durham Region</title>
-  <meta name="description" content="Next Goal Player Development offers private 1-on-1 and small group soccer training for youth players in the Durham Region. Focused on confidence, fundamentals, and long-term player growth." />
-  <meta name="keywords" content="soccer training Durham, youth soccer coach, private soccer training, small group soccer, Next Goal Player Development" />
-  <meta name="author" content="Next Goal Player Development" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <!-- CANONICAL -->
+  <!-- SEO -->
+  <title>Next Goal Player Development | Youth Soccer Training in Durham Region</title>
+  <meta name="description" content="Next Goal Player Development offers private 1-on-1 and small-group soccer training for youth players in the Durham Region. Focused on confidence, fundamentals, and long-term development." />
+  <meta name="keywords" content="soccer training Durham, youth soccer training, private soccer coach, small group soccer training, kids soccer Durham, Next Goal Player Development" />
+  <meta name="robots" content="index,follow" />
   <link rel="canonical" href="https://www.nextgoalpd.com/" />
 
-  <!-- OPEN GRAPH (Instagram / WhatsApp) -->
-  <meta property="og:title" content="Next Goal Player Development" />
-  <meta property="og:description" content="Private 1-on-1 and small group soccer training for youth players in the Durham Region." />
+  <!-- Social preview -->
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://www.nextgoalpd.com/" />
+  <meta property="og:title" content="Next Goal Player Development" />
+  <meta property="og:description" content="Private 1-on-1 and small-group youth soccer training in the Durham Region." />
   <meta property="og:image" content="https://www.nextgoalpd.com/Logo.png" />
-
-  <!-- TWITTER PREVIEW -->
+  <meta property="og:url" content="https://www.nextgoalpd.com/" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Next Goal Player Development" />
-  <meta name="twitter:description" content="Youth soccer training focused on confidence, fundamentals, and long-term development." />
-  <meta name="twitter:image" content="https://www.nextgoalpd.com/Logo.png" />
 
-  <!-- LOCAL BUSINESS SCHEMA (GOOGLE SEO BOOST) -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "SportsActivityLocation",
-    "name": "Next Goal Player Development",
-    "url": "https://www.nextgoalpd.com",
-    "logo": "https://www.nextgoalpd.com/Logo.png",
-    "sameAs": [
-      "https://www.instagram.com/nextgoalfutbol"
-    ],
-    "address": {
-      "@type": "PostalAddress",
-      "addressRegion": "Ontario",
-      "addressCountry": "CA"
-    },
-    "areaServed": {
-      "@type": "AdministrativeArea",
-      "name": "Durham Region"
-    },
-    "description": "Private 1-on-1 and small group soccer training for youth players focused on confidence, fundamentals, and long-term development.",
-    "sport": "Soccer"
-  }
-  </script>
-
-  <!-- STYLES -->
+  <link rel="icon" href="Logo.png" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
+  <!-- NAV -->
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="#top" aria-label="Next Goal Player Development home">
+        <img class="logo" src="Logo.png" alt="Next Goal Player Development logo" />
+        <div class="brand-text">
+          <div class="brand-name">Next Goal</div>
+          <div class="brand-sub">Player Development</div>
+        </div>
+      </a>
 
-<!-- NAV -->
-<header class="nav">
-  <div class="container nav-inner">
-    <div class="brand">
-      <img src="Logo.png" alt="Next Goal Player Development Logo" class="logo" />
-      <div class="brand-text">
-        <div class="brand-name">Next Goal</div>
-        <div class="brand-sub">Player Development</div>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#programs">Programs</a>
+        <a href="#coaches">Coaches</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-left">
+          <h1>Helping Players Reach Their Next Goal</h1>
+
+          <p class="hero-lead">Private 1-on-1 and small-group soccer training for youth players.</p>
+          <p class="hero-sub">
+            Structured, affordable player development focused on confidence, technical ability, and real game understanding.
+            Serving the <strong>Durham Region</strong>.
+          </p>
+
+          <div class="cta-row">
+            <a class="btn primary" href="#programs">View Programs</a>
+            <a class="btn ghost" href="#contact">Contact Us</a>
+          </div>
+
+          <div class="pill-row" aria-label="Highlights">
+            <span class="pill">Durham Region</span>
+            <span class="pill">Small Groups (3–6)</span>
+            <span class="pill">Youth Development</span>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <div class="card why-card">
+            <div class="card-head">Why Train With Us?</div>
+            <ul class="checklist">
+              <li>Experienced youth coaches</li>
+              <li>Clear specialized development plans</li>
+              <li>Fun, focused training environment</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROGRAMS -->
+    <section class="strip alt" id="programs">
+      <div class="container">
+        <h2>Programs &amp; Pricing</h2>
+        <p class="subtext">Simple, structured programs designed to help players improve faster.</p>
+
+        <div class="cards">
+          <div class="card program-card">
+            <h3>1-on-1 Player Development</h3>
+            <p>Private, personalized training focused on individual improvement.</p>
+            <div class="price-line">
+              <strong>4 sessions — $140</strong>
+              <strong>8 sessions — $260</strong>
+            </div>
+            <div class="note">Best for players who want detailed feedback and fast progress.</div>
+          </div>
+
+          <div class="card program-card">
+            <h3>Small Group Training (Ages 8–14)</h3>
+            <p>High-rep sessions with 3–6 players per group.</p>
+            <div class="price-line">
+              <strong>4 sessions — $100</strong>
+              <strong>$25 per session</strong>
+            </div>
+            <div class="note">Best for development plus competition and game-like reps.</div>
+          </div>
+
+          <div class="card program-card">
+            <h3>Junior Program (Ages 5–8)</h3>
+            <p>Fun, confidence-building training focused on fundamentals.</p>
+            <div class="price-line">
+              <strong>4 sessions — $80</strong>
+              <strong>$20 per session</strong>
+            </div>
+            <div class="note">Best for beginners learning technique, balance, and coordination.</div>
+          </div>
+        </div>
+
+        <!-- EMBED FORM UNDER PROGRAMS -->
+        <div class="form-wrap">
+          <h3 class="form-title">Register</h3>
+          <p class="form-sub">Complete the form below to register. Your spot is confirmed once payment is received.</p>
+
+          <!-- Replace the iframe src ONLY if you change your Google Form -->
+          <div class="form-embed">
+            <iframe
+              src="https://forms.gle/B7ZSgEbj1VjJoG3k8"
+              title="Next Goal Player Development Registration Form"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            >
+              Loading…
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COACHES -->
+    <section class="strip" id="coaches">
+      <div class="container">
+        <h2>Meet Your Coaches</h2>
+        <p class="subtext">Coaches who keep it simple, structured, and focused on player confidence and growth.</p>
+
+        <div class="coach-grid">
+          <div class="card coach-card">
+            <img src="Coach-James.jpg" alt="James White youth soccer coach Durham Region" class="coach-img" />
+            <div class="coach-info">
+              <h3>James White</h3>
+              <p class="coach-title">College player &amp; youth coach</p>
+              <p>
+                Specializes in technical development, game understanding, and helping players reach the next level.
+              </p>
+            </div>
+          </div>
+
+          <div class="card coach-card">
+            <img src="coach-faiq.jpg" alt="Faiq Ali youth soccer coach and trainer" class="coach-img" />
+            <div class="coach-info">
+              <h3>Faiq Ali</h3>
+              <p class="coach-title">Youth coach &amp; player development specialist</p>
+              <p>
+                Focused on building confidence, strong fundamentals, and long-term player growth in young players.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="strip alt" id="gallery">
+      <div class="container">
+        <h2>Training Gallery</h2>
+        <p class="subtext">A look at our sessions in action.</p>
+
+        <div class="gallery-grid">
+          <img src="image-2.png" alt="Small group youth soccer training session" />
+          <img src="image-3.png" alt="Private soccer training for kids in Durham Region" />
+          <img src="image-4.png" alt="Youth soccer development drills" />
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="strip" id="contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <p class="subtext">Questions about programs, availability, or registration? Reach out anytime.</p>
+
+        <div class="contact-grid">
+          <div class="card contact-card">
+            <h3>Payment</h3>
+            <p class="contact-line">We accept <strong>Interac e-Transfer</strong>.</p>
+            <p class="contact-line">Send payment to:</p>
+            <p class="contact-line">
+              <strong><a class="link" href="mailto:nextgoalfutbol@gmail.com">nextgoalfutbol@gmail.com</a></strong>
+            </p>
+            <p class="contact-line">
+              Please include the player’s name in the message. Registration is confirmed once payment is received.
+            </p>
+          </div>
+
+          <div class="card contact-card">
+            <h3>Contact Us</h3>
+
+            <p class="contact-line">
+              <strong>Email:</strong>
+              <a class="link" href="mailto:nextgoalfutbol@gmail.com">nextgoalfutbol@gmail.com</a>
+            </p>
+
+            <p class="contact-line">
+              <strong>Phone:</strong>
+              <a class="link" href="tel:+19053917786">905-391-7786</a>
+            </p>
+
+            <p class="contact-line">
+              <strong>Instagram:</strong>
+              <a class="link" href="https://instagram.com/nextgoalfutbol" target="_blank" rel="noopener"> @nextgoalfutbol</a>
+            </p>
+
+            <!-- WhatsApp: replace the href with your actual invite link -->
+            <p class="contact-line">
+              <strong>WhatsApp:</strong>
+              <a class="link" href="https://chat.whatsapp.com/FV8BDdFavUpJ5Lu29QEmzA"_blank" rel="noopener">
+                Join our WhatsApp group
+              </a>
+            </p>
+
+            <p class="contact-line muted">We usually respond within 24 hours.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>© <span id="year"></span> Next Goal Player Development</div>
+      <div class="footer-links">
+        <a href="#programs">Programs</a>
+        <a href="#coaches">Coaches</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
       </div>
     </div>
+  </footer>
 
-    <nav class="nav-links">
-      <a href="#programs">Programs</a>
-      <a href="#coaches">Coaches</a>
-      <a href="#gallery">Gallery</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </div>
-</header>
-
-<!-- HERO -->
-<section class="hero">
-  <div class="container hero-grid">
-    <div>
-      <h1>Helping Players Reach Their Next Goal</h1>
-      <p class="hero-lead">
-        Private 1-on-1 and small-group soccer training for youth players.
-      </p>
-      <p class="hero-sub">
-        Structured, affordable player development focused on confidence,
-        technical ability, and real game understanding.
-      </p>
-
-      <div class="cta-row">
-        <a href="#programs" class="btn primary">View Programs</a>
-        <a href="#contact" class="btn ghost">Contact Us</a>
-      </div>
-
-      <div class="pill-row">
-        <span class="pill">Durham Region</span>
-        <span class="pill">Small Groups (3–6)</span>
-        <span class="pill">Youth Development</span>
-      </div>
-    </div>
-
-    <div class="card why-card">
-      <div class="card-head">Why Train With Us?</div>
-      <ul class="checklist">
-        <li>Experienced youth coaches</li>
-        <li>Clear specialized development plans</li>
-        <li>Fun, focused training environment</li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-<!-- PROGRAMS -->
-<section id="programs" class="strip">
-  <div class="container">
-    <h2>Programs & Pricing</h2>
-    <p class="subtext">Simple, structured programs designed to help players improve faster.</p>
-
-    <div class="cards">
-      <div class="card program-card">
-        <h3>1-on-1 Player Development</h3>
-        <p>Private, personalized training focused on individual improvement.</p>
-        <strong>4 sessions – $140</strong><br />
-        <strong>8 sessions – $260</strong>
-      </div>
-
-      <div class="card program-card">
-        <h3>Small Group Training (Ages 8–14)</h3>
-        <p>High-rep sessions with 3–6 players per group.</p>
-        <strong>4 sessions – $100</strong>
-      </div>
-
-      <div class="card program-card">
-        <h3>Junior Program (Ages 5–8)</h3>
-        <p>Fun, confidence-building training focused on fundamentals.</p>
-        <strong>4 sessions – $80</strong>
-      </div>
-    </div>
-
-    <!-- GOOGLE FORM -->
-    <div style="margin-top:40px;">
-      <iframe src="https://forms.gle/TvfBEfeVRtGWcry37"
-        width="100%" height="1900" frameborder="0">Loading…</iframe>
-    </div>
-  </div>
-</section>
-
-<!-- CONTACT -->
-<section id="contact" class="strip alt">
-  <div class="container">
-    <h2>Contact</h2>
-
-    <div class="contact-grid">
-      <div class="card contact-card">
-        <h3>Payment</h3>
-        <p>We accept <strong>Interac e-Transfer</strong></p>
-        <p><strong>nextgoalfutbol@gmail.com</strong></p>
-        <p>Please include the player’s name in the message.</p>
-      </div>
-
-      <div class="card contact-card">
-        <h3>Contact Us</h3>
-        <p>Email: <a href="mailto:nextgoalfutbol@gmail.com">nextgoalfutbol@gmail.com</a></p>
-        <p>Phone: <a href="tel:19053917786">905-391-7786</a></p>
-        <p>Instagram: <a href="https://instagram.com/nextgoalfutbol" target="_blank">@nextgoalfutbol</a></p>
-        <p>WhatsApp: <a href="https://chat.whatsapp.com/FV8BDdFavUpJ5Lu29QEmzA">Join our WhatsApp Group</a></p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<footer class="footer">
-  <div class="container footer-inner">
-    <div>© 2026 Next Goal Player Development</div>
-  </div>
-</footer>
-
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
