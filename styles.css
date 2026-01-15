@@ -180,25 +180,23 @@ h1{
   font-size: 15px;
 }
 
-/* WHY TRAIN WITH US – CHECKMARKS SHIFTED RIGHT (AS REQUESTED) */
+/* WHY TRAIN WITH US – CHECKMARKS SHIFTED RIGHT */
 .checklist{
   list-style: none;
   margin: 0;
   padding: 16px 18px 18px 22px;
   color: var(--text);
 }
-
 .checklist li{
   position: relative;
   margin: 10px 0;
-  padding-left: 40px; /* pushes text right */
+  padding-left: 40px;
   font-size: 15px;
 }
-
 .checklist li::before{
   content: "✓";
   position: absolute;
-  left: 18px;         /* moves checkmark right */
+  left: 18px;
   top: 0;
   color: #9b1c1c;
   font-weight: 900;
@@ -259,13 +257,44 @@ h2{
   line-height: 1.45;
 }
 
+/* FORM UNDER PROGRAMS */
+.form-wrap{
+  margin-top: 28px;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: #fff;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.04);
+}
+.form-head{
+  margin-bottom: 12px;
+}
+.form-head h3{
+  margin: 0 0 6px;
+  font-size: 20px;
+}
+.form-sub{
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.5;
+}
+.form-embed{
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+}
+.form-embed iframe{
+  display: block;
+  width: 100%;
+  border: 0;
+}
+
 /* Coaches */
 .coach-grid{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 18px;
 }
-
 .coach-card{
   display: grid;
   grid-template-columns: 140px 1fr;
@@ -295,7 +324,7 @@ h2{
   line-height: 1.5;
 }
 
-/* Gallery (3 images side-by-side) */
+/* Gallery */
 .gallery-grid{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -325,6 +354,15 @@ h2{
 }
 .contact-line{
   margin: 8px 0;
+}
+.contact-link{
+  color: var(--brand2);
+  text-decoration: none;
+  font-weight: 700;
+}
+.contact-link:hover{
+  color: var(--brand);
+  text-decoration: underline;
 }
 
 /* Footer */
